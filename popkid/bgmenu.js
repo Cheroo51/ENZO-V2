@@ -67,7 +67,7 @@ zokou({ nomCom: "bugmenu", categorie: "Menu" }, async (dest, zk, commandeOptions
 ┃۞unlimitedgcbug <grplink>
 ┃۞docugcbug <grouplink>
 ┗━━━━━━━━━━━━━━━━━━━━𖥚
-*𝚙𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝚓𝚘𝚎𝚕 𝚔𝚊𝚗𝚐'𝚘𝚖𝚊*\n\n`;
+*𝚙𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 popkid*\n\n`;
     for (const cat in coms) {
         if (!emoji[cat]) {
             emoji[cat] = "";
@@ -77,7 +77,7 @@ zokou({ nomCom: "bugmenu", categorie: "Menu" }, async (dest, zk, commandeOptions
             menuMsg += "";
         }
     }
-    var link = "https://files.catbox.moe/zvbprr.jpg";
+    var link = "https://files.catbox.moe/uqsed6.jpg";
     try {
         zk.sendMessage(dest, { image: { url: link }, caption: menuMsg, footer: "©TKM INC" }, { quoted: ms });
     }
