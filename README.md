@@ -3,7 +3,7 @@
  
  <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=POPKID THE BOT +WHATSAPP; MULTI+SERVICE+REVOLUTIONIZES;CREATE+BY+ENZO+TECH;BOT DATED+06.6.2024" alt="Typing SVG" /></a>
  <a href="https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l">
- <img alt="POPKID BUG BOT" height="300" src="https://i.ibb.co/1RVj1GQ/IMG-20240917-WA0296-1.jpg">
+ <img alt="ENZO BUG BOT" height="300" src="https://i.ibb.co/1RVj1GQ/IMG-20240917-WA0296-1.jpg">
   
 </h1> 
 <p align="center">𝚒𝚗𝚝𝚛𝚘𝚍𝚞𝚌𝚒𝚗𝚐<b> ENZO  MD </b>, 𝚊 𝚙𝚘𝚠𝚎𝚛𝚏𝚞𝚕 𝚠𝚊 𝚋𝚘𝚝 </p>
