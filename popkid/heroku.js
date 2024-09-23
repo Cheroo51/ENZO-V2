@@ -5,13 +5,13 @@ const s = require('../set')
 zokou(
     {
         nomCom : "setvar",
-        categorie : "JOel-bot vars"
+        categorie : "popkid-bot vars"
     }, async (dest , zk , commandeOptions) =>{
 
        const {ms,repondre,superUser , arg} = commandeOptions ;
        
        if(!superUser){repondre('only Mods can use this commande');return};
-       if(!arg[0] || !(arg.join('').split('='))) {repondre('Bad format ; Exemple of using :\nSetvar OWNER_NAME=JOel');return};
+       if(!arg[0] || !(arg.join('').split('='))) {repondre('Bad format ; Exemple of using :\nSetvar OWNER_NAME=popkid');return};
      
     const text = arg.join(" ")
      const Heroku = require("heroku-client");
@@ -33,7 +33,7 @@ zokou(
 zokou(
     {
         nomCom : "getallvar",
-        categorie : "JOel-bot vars"
+        categorie : "popkid-bot vars"
     }, async (dest , zk , commandeOptions) =>{
 
        const {ms,repondre,superUser , arg} = commandeOptions ;
@@ -48,7 +48,7 @@ zokou(
 			let baseURI = "/apps/" + s.HEROKU_APP_NAME;
 
             let h = await heroku.get(baseURI+'/config-vars')
-let str = '*TKM-bot all vars*\n\n'
+let str = '*popkid-bot all vars*\n\n'
 for (vr in h) {
 str+= '☉ *'+vr+'* '+'= '+h[vr]+'\n'
 }
@@ -63,7 +63,7 @@ str+= '☉ *'+vr+'* '+'= '+h[vr]+'\n'
     zokou(
         {
             nomCom : "getvar",
-            categorie : "JOel-bot vars"
+            categorie : "popkid-bot vars"
         }, async (dest , zk , commandeOptions) =>{
     
            const {ms,repondre,superUser , arg} = commandeOptions ;
