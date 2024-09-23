@@ -824,10 +824,10 @@ ${metadata.desc}\n\nyoutube channel https://youtube.com/@pop_kid254?si=rqhYlAhFt
                 console.log("popkid md installing cmds😇\n\n");
                 //chargement des commandes 
                 console.log("chargement des commandes ...\n");
-                fs.readdirSync(__dirname + "/lordjoel").forEach((fichier) => {
+                fs.readdirSync(__dirname + "/popkid").forEach((fichier) => {
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
-                            require(__dirname + "/lordjoel/" + fichier);
+                            require(__dirname + "/popkid/" + fichier);
                             console.log(fichier + "Successfully installed joel md commands✔️");
                         }
                         catch (e) {
