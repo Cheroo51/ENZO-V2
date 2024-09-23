@@ -7,11 +7,11 @@ zokou(
     async (dest, zk, commandeOptions) => {
         console.log("Commande saisie !!!s");
         let z =
-            "Hello my name is  *joel md* \n\n " +
+            "Hello my name is  *popkid md* \n\n " +
             "i'm a whatsapp bot multi-device";
-        let d = " by *lord joel*";
+        let d = " by *popkid*";
         let varmess = z + d;
-        var img = "https://files.catbox.moe/5a2euh.jpg";
+        var img = "https://files.catbox.moe/uqsed6.jpg";
         await zk.sendMessage(dest, { image: { url: img }, caption: varmess });
         //console.log("montest")
     }
