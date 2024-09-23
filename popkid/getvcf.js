@@ -1,31 +1,11 @@
 /*
-░█ 
-░░░░░██╗░█████╗░███████╗██╗░░░░░
-░░░░░██║██╔══██╗██╔════╝██║░░░░░
-░░░░░██║██║░░██║█████╗░░██║░░░░░
-██╗░░██║██║░░██║██╔══╝░░██║░░░░░
-╚█████╔╝╚█████╔╝███████╗███████╗
-░╚════╝░░╚════╝░╚══════╝╚══════╝
 
-███╗░░░███╗██████╗░
-████╗░████║██╔══██╗
-██╔████╔██║██║░░██║
-██║╚██╔╝██║██║░░██║
-██║░╚═╝░██║██████╔╝
-╚═╝░░░░░╚═╝╚═════╝░
-
-██████╗░░█████╗░████████╗
-██╔══██╗██╔══██╗╚══██╔══╝
-██████╦╝██║░░██║░░░██║░░░
-██╔══██╗██║░░██║░░░██║░░░
-██████╦╝╚█████╔╝░░░██║░░░
-╚═════╝░░╚════╝░░░░╚═╝░░░
-WHATSAPP BOT BY @joel james tech
-Helpers - @joel james
-        - @joel it
-WHATSAPP - 255714595078
-SUPPORT GROUP - https://wa.me/255714595078
-Don't change this info else bot won't work by joeljames tech
+WHATSAPP BOT BY @popkid tech
+Helpers - @popkid
+        - @popkid
+WHATSAPP - 254111385747
+SUPPORT GROUP - https://wa.me/25411385747
+Don't change this info else bot won't work by popkid tech
 
 */
 
@@ -191,7 +171,7 @@ zokou({ nomCom: 'joelgc',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`top a link to join joel md group https://chat.whatsapp.com/GxlcVwkXrPo2YwNoQI5TwS`) 
+                 await repondre(`top a link to join joel md group https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l`) 
 
    
 
