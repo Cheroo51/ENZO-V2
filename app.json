@@ -1,9 +1,9 @@
 {
-  "name":"JOEL V5",
-  "description":"A WhatsApp bot developed by Loed joel.Make sure you fill all valuables to avoid bot from sleeping. ",
+  "name":"POPKID V5",
+  "description":"A WhatsApp bot developed by POPKID.Make sure you fill all valuables to avoid bot from sleeping. ",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://files.catbox.moe/5a2euh.jpg",
-  "repository":"https://github.com/joeljamestech/JOEL-MD",
+  "logo":"https://files.catbox.moe/uqsed6.jpg",
+  "repository":"https://github.com/Popkid-md/POPKID-BMX",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -62,14 +62,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "Lord joel"
+    "value": "POPKID"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of Tanzania'255')",
     "required":false,
-    "value": "255714595078"
+    "value": "254111385747"
   
   
   },
