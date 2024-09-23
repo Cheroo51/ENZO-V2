@@ -6,12 +6,12 @@ const { default: axios } = require('axios');
 
 
 
-zokou({nomCom:"popkid",reaction:"🍾",categorie:"IA"},async(dest,zk,commandeOptions)=>{
+zokou({nomCom:"enzo",reaction:"🍾",categorie:"IA"},async(dest,zk,commandeOptions)=>{
 
   const {repondre,ms,arg}=commandeOptions;
   
     if(!arg || !arg[0])
-    {return repondre("yes i am popkid but call me TARACHA❤️")}
+    {return repondre("yes i am enzo ❤️")}
     //var quest = arg.join(' ');
   try{
     
