@@ -3,10 +3,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
 
 zokou({ nomCom: "sc", catégorie:"Général", reaction: "✨", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
-  const githubRepo = 'https://api.github.com/repos/Popkid-md/POPKID-BMX';
-  const img = 'https://files.catbox.moe/uqsed6.jpg';
-
-  try {
+  const githubRepo = 'https://api.github.com/repos/Cheroo51/ENZO-V2';
+  const img = 'https://i.ibb.co/1RVj1GQ/IMG-20240917-WA0296-1.jpg'
     const response = await fetch(githubRepo);
     const data = await response.json();
 
@@ -21,13 +19,13 @@ zokou({ nomCom: "sc", catégorie:"Général", reaction: "✨", nomFichier: __fil
       const releaseDate = new Date(data.created_at).toLocaleDateString('en-GB');
       const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
 
-      const gitdata = `┏❏ POPKID MD REPO❐
+      const gitdata = `┏❏ ENZO MD REPO❐
 ┃😶 *REPOSITORY:* ${data.html_url}
 ┃✨ *STARS:* ${repoInfo.stars}
 ┃🧧 *FORKS:* ${repoInfo.forks}
 ┃📅 *RELEASE DATE:* ${releaseDate}
 ┃🕐 *UPDATE ON:* ${repoInfo.lastUpdate}
-┃👨‍💻 *OWNER* :POPKID
+┃👨‍💻 *OWNER* :ENZO
 ┗❏`;
 
       await zk.sendMessage(dest, { image: { url: img }, caption: gitdata });
