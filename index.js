@@ -47,7 +47,7 @@ const  {addGroupToBanList,isGroupBanned,removeGroupFromBanList} = require("./bdd
 const {isGroupOnlyAdmin,addGroupToOnlyAdminList,removeGroupFromOnlyAdminList} = require("./bdd/onlyAdmin");
 //const //{loadCmd}=require("/framework/mesfonctions")
 let { reagir } = require(__dirname + "/framework/app");
-var session = conf.session.replace(/JOEL-MD;;;=>/g,"");
+var session = conf.session.replace(/POPKID-MD;;;=>/g,"");
 const prefixe = conf.PREFIXE;
 
 
@@ -80,7 +80,7 @@ setTimeout(() => {
         const sockOptions = {
             version,
             logger: pino({ level: "silent" }),
-            browser: ['JOEL-MD', "safari", "1.0.0"],
+            browser: ['POPKID-MD', "safari", "1.0.0"],
             printQRInTerminal: true,
             fireInitQueries: false,
             shouldSyncHistoryMessage: true,
@@ -165,7 +165,7 @@ setTimeout(() => {
             
             var dev = [dj, dj2,dj3,luffy].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\t [][]...{joel-Md}...[][]");
+            console.log("\t [][]...{popkid-Md}...[][]");
             console.log("=========== New message ===========");
             if (verifGroupe) {
                 console.log("message sent from : " + nomGroupe);
@@ -428,7 +428,7 @@ function mybotpic() {
                                    // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
                                     const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
                                     var sticker = new Sticker(gifLink, {
-                                        pack: 'joel-Md',
+                                        pack: 'popkid-Md',
                                         author: conf.OWNER_NAME,
                                         type: StickerTypes.FULL,
                                         categories: ['🤩', '🎉'],
@@ -526,7 +526,7 @@ function mybotpic() {
            // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
             const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
             var sticker = new Sticker(gifLink, {
-                pack: 'JOel-Md',
+                pack: 'popkid-Md',
                 author: conf.OWNER_NAME,
                 type: StickerTypes.FULL,
                 categories: ['🤩', '🎉'],
@@ -670,7 +670,7 @@ zk.ev.on('group-participants.update', async (group) => {
         const metadata = await zk.groupMetadata(group.id);
 
         if (group.action == 'add' && (await recupevents(group.id, "welcome") == 'on')) {
-            let msg = `╔════◇JOel md◇═════╗
+            let msg = `╔════◇popkid md◇═════╗
 ║ welcome to new(s) member(s)
 ║ New(s) Member(s) :
 `;
@@ -681,10 +681,10 @@ zk.ev.on('group-participants.update', async (group) => {
             }
 
             msg += `║
-╚════◇joel tech◇═════╝
+╚════◇popkid tech◇═════╝
 ◇ Descriptioon   ◇
 
-${metadata.desc}\n\nyoutube channel https://youtube.com/@joeltech255?si=rqhYlAhFtqK7CVX2`;
+${metadata.desc}\n\nyoutube channel https://youtube.com/@pop_kid254?si=rqhYlAhFtqK7CVX2`;
 
             zk.sendMessage(group.id, { image: { url: ppgroup }, caption: msg, mentions: membres });
         } else if (group.action == 'remove' && (await recupevents(group.id, "goodbye") == 'on')) {
@@ -812,16 +812,16 @@ ${metadata.desc}\n\nyoutube channel https://youtube.com/@joeltech255?si=rqhYlAhF
         zk.ev.on("connection.update", async (con) => {
             const { lastDisconnect, connection } = con;
             if (connection === "connecting") {
-                console.log("ℹ️ joel md connecting in your account...");
+                console.log("ℹ️ popkid md connecting in your account...");
             }
             else if (connection === 'open') {
-                console.log("✅ joel md connected successfully☺️");
+                console.log("✅ popkid md connected successfully☺️");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
                 await (0, baileys_1.delay)(300);
                 console.log("------------------/-----");
-                console.log("joel md installing cmds😇\n\n");
+                console.log("popkid md installing cmds😇\n\n");
                 //chargement des commandes 
                 console.log("chargement des commandes ...\n");
                 fs.readdirSync(__dirname + "/lordjoel").forEach((fichier) => {
@@ -848,19 +848,19 @@ ${metadata.desc}\n\nyoutube channel https://youtube.com/@joeltech255?si=rqhYlAhF
                 else {
                     md = "undefined";
                 }
-                console.log("joel md successfully connected✅");
+                console.log("popkid md successfully connected✅");
 
                 await activateCrons();
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
                 let cmsg = `╔══════☐
-║☐𝙹𝙾𝙴𝙻 𝙼𝙳 𝙱𝙾𝚃
-║☐𝙼𝙾𝙳𝙴: ${md} mode
-║☐𝙿𝚁𝙴𝙵𝙸𝚇: [ ${prefixe} ]
-║☐𝙲𝚁𝙴𝙰𝚃𝙾𝚁:𝙻𝙾𝚛𝚍 𝙹𝚘𝚎𝚕
+║🍮POPKID MD BOT
+║🍮𝙼𝙾𝙳𝙴: ${md} mode
+║🍮𝙿𝚁𝙴𝙵𝙸𝚇: [ ${prefixe} ]
+║🍮𝙲𝚁𝙴𝙰𝚃𝙾𝚁:POPKID
 ╚═══════════════╝
 ╔═══════════════╗
- ☐https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M
+ 🍮https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l
 ╚═══════════════╝`;
                     
                 await zk.sendMessage( zk.user.id, { text: cmsg });
