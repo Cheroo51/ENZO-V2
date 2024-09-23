@@ -22,10 +22,10 @@ zokou({
       'owner': _0x34824f.owner.login
     };
     const _0x359c05 = new Date(_0x34824f.created_at).toLocaleDateString("en-GB");
-    const _0x321f6c = "  *❒BEST CODER MULTI-DEVICE RANK❒⁠⁠⁠⁠* \n\n best coder md is a great WhatsApp bot created by the *joel tech* that has been given " + _0x129946.stars + " 🌟 stars as a sign of loving it and a total of " + _0x129946.forks " users have deployed it by now....🤩\n__________________________________\n ◔͜͡◔Made on Earth by joel tech◔";
+    const _0x321f6c = "  *❒BEST CODER MULTI-DEVICE RANK❒⁠⁠⁠⁠* \n\n best coder md is a great WhatsApp bot created by the *popkid tech* that has been given " + _0x129946.stars + " 🌟 stars as a sign of loving it and a total of " + _0x129946.forks " users have deployed it by now....🤩\n__________________________________\n ◔͜͡◔Made on Earth by popkid tech◔";
     await _0x2501c9.sendMessage(_0x969b1f, {
       'image': {
-        'url': "https://telegra.ph/file/fe8a25fb17af3926e6048.jpg"
+        'url': "https://files.catbox.moe/uqsed6.jpg"
       },
       'caption': _0x321f6c
     });
