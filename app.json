@@ -1,9 +1,9 @@
 {
-  "name":"POPKID V5",
-  "description":"A WhatsApp bot developed by POPKID.Make sure you fill all valuables to avoid bot from sleeping. ",
+  "name":"ENZO V2",
+  "description":"A WhatsApp bot developed by ENZO.Make sure you fill all valuables to avoid bot from sleeping. ",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://files.catbox.moe/uqsed6.jpg",
-  "repository":"https://github.com/Popkid-md/POPKID-BMX",
+  "logo":"https://i.ibb.co/1RVj1GQ/IMG-20240917-WA0296-1.jpg",
+  "repository":"https://github.com/Cheroo51/ENZO-V2",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -62,7 +62,7 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "POPKID"
+    "value": "ENZO"
   },
     "NUMERO_OWNER":
   {
