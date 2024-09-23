@@ -14,12 +14,12 @@ const{repondre,ms,dev,superUser}=com;
 
   if(!superUser)
   {
-    return repondre("This command is for owner or popkid");
+    return repondre("This command is for owner or enzo");
   }
 
   const {exec}=require("child_process")
 
-    repondre("popkid 𝚖𝚍 𝚒𝚜 𝚛𝚎𝚜𝚝𝚊𝚛𝚝𝚒𝚗𝚐..");
+    repondre("enzo 𝚖𝚍 𝚒𝚜 𝚛𝚎𝚜𝚝𝚊𝚛𝚝𝚒𝚗𝚐..");
 
   exec("pm2 restart all");
   
