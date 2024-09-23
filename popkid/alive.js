@@ -88,7 +88,7 @@ else {
     
 await addOrUpdateDataInAlive(texte , tlien)
 
-repondre(' _JOel-bot_ is running on server 99. ')
+repondre(' _popkid-bot_ is running on server 99. ')
 
 }
     });
