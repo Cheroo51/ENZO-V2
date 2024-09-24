@@ -1,7 +1,7 @@
  </h1> 
 <p align="center">enzo 𝚅 2.𝟶.𝟶
  
- <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=POPKID THE BOT +WHATSAPP; MULTI+SERVICE+REVOLUTIONIZES;CREATE+BY+ENZO+TECH;BOT DATED+06.6.2024" alt="Typing SVG" /></a>
+ <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=ENZO THE BOT +WHATSAPP; MULTI+SERVICE+REVOLUTIONIZES;CREATE+BY+ENZO+TECH;BOT DATED+06.6.2024" alt="Typing SVG" /></a>
  <a href="https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l">
  <img alt="ENZO BUG BOT" height="300" src="https://files.catbox.moe/1z7t58.jpg">
   
