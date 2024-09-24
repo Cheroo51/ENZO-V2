@@ -2,7 +2,7 @@
 <p align="center">enzo 𝚅 2.𝟶.𝟶
  
  <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=ENZO THE BOT +WHATSAPP; MULTI+SERVICE+REVOLUTIONIZES;CREATE+BY+ENZO+TECH;BOT DATED+06.6.2024" alt="Typing SVG" /></a>
- <a href="https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l">
+ <a href="https://whatsapp.com/channel/0029VajJTJp2f3ELCm8FN50D">
  <img alt="ENZO BUG BOT" height="300" src="https://files.catbox.moe/1z7t58.jpg">
   
 </h1> 
@@ -60,7 +60,7 @@
 
  
 
-<a href="https://popkid-new-sessions.onrender.com"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/PAIRING CODE-h?color=red&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
+<a href="https://enzo-md-sessions-generator.onrender.com/"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/PAIRING CODE-h?color=red&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
 
 
   **𝟑.𝐓𝐇𝐈𝐑𝐃 𝐒𝐓𝐄𝐏**  
@@ -97,7 +97,7 @@
     <td>𝚠𝚊 𝚌𝚑𝚊𝚗𝚗𝚎𝚕</td>
   </tr>
   <tr>
-    <td><a href="https://wa.link/e9lbut"><img src="https://i.ibb.co/1RVj1GQ/IMG-20240917-WA0296-1.jpg" width="180"</td>
+    <td><a href="https://wa.link/609op3"><img src="https://i.ibb.co/1RVj1GQ/IMG-20240917-WA0296-1.jpg" width="180"</td>
     <td><a href="https://whatsapp.com/channel/0029VajJTJp2f3ELCm8FN50D"><img src="https://i.ibb.co/1RVj1GQ/IMG-20240917-WA0296-1.jpg" width="180"</td>
   </tr>
 </table>
